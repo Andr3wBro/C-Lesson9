@@ -3,7 +3,7 @@
 // M = 4; N = 8 -> "4, 6, 8"
 
 
-void CheckPow(int A, int B)
+void NaturalNumbers(int A, int B)
 {
 
     if (A > B)
