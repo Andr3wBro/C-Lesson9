@@ -11,7 +11,7 @@ void NaturalNumbers(int A, int B)
         return;
     }
     if (A % 2 == 0) Console.Write($"{A}; ");
-    CheckPow(A + 1, B);
+    NaturalNumbers(A + 1, B);
 
 }
 
@@ -22,4 +22,4 @@ int Prompt(string message)
 }
 int A= Prompt("Enter A =>");
 int B= Prompt("Enter B =>");
-CheckPow(A, B);
+NaturalNumbers(A, B);
